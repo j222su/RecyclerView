@@ -15,7 +15,7 @@ public class MainData {
     }
 
     public void setImgProfile(int imgProfile) {
-        this.imgProfile=imgProfile;
+        this.imgProfile = imgProfile;
     }
 
     public String getTvName() {
@@ -23,6 +23,6 @@ public class MainData {
     }
 
     public void setTvName(String tvName) {
-        this.tvName=tvName;
+        this.tvName = tvName;
     }
 }
