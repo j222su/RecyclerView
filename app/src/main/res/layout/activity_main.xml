@@ -7,13 +7,16 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.app.AlertController.RecycleListView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbarFadeDuration="0"
+        android:scrollbarThumbVertical="@android:color/darker_gray"
+        android:scrollbars="vertical"
         app:layout_constraintBottom_toTopOf="@+id/btnAdd">
 
-    </androidx.appcompat.app.AlertController.RecycleListView>
-
+    </androidx.recyclerview.widget.RecyclerView>
 
     <Button
         android:id="@+id/btnAdd"
